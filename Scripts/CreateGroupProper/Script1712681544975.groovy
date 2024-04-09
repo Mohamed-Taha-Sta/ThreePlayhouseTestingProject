@@ -19,11 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('app.three.android')
 
-Mobile.scrollToText('Three')
-
 Mobile.tap(findTestObject('Object Repository/CreateGroupProper/android.widget.ImageView (5)'), 0)
-
-Mobile.tap(findTestObject('Object Repository/CreateGroupProper/android.widget.TextView - Got it (1)'), 0)
 
 Mobile.tap(findTestObject('Object Repository/CreateGroupProper/android.widget.ImageView (6)'), 0)
 
