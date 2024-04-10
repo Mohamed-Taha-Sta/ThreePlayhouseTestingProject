@@ -19,23 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('app.three.android')
 
-Mobile.tap(findTestObject('Object Repository/CreateGroupProper/android.widget.ImageView (5)'), 0)
+Mobile.tap(findTestObject('Object Repository/TestingFolder/LoggingIn/android.widget.TextView - Continue with Google'), 0)
 
-Mobile.tap(findTestObject('Object Repository/CreateGroupProper/android.widget.ImageView (6)'), 0)
-
-Mobile.tap(findTestObject('Object Repository/CreateGroupProper/android.widget.LinearLayout (1)'), 0)
-
-Mobile.scrollToText('Search')
-
-Mobile.tap(findTestObject('Object Repository/CreateGroup/android.widget.TextView - Messages'), 0)
-
-Mobile.tap(findTestObject(''), 0)
-
-Mobile.tap(findTestObject('Object Repository/CreateGroupProper/android.widget.TextView - Search (1)'), 0)
-
-Mobile.setText(findTestObject('Object Repository/CreateGroupProper/android.widget.EditText - Search (1)'), 'Tunisia', 0)
-
-Mobile.tap(findTestObject('Object Repository/CreateGroupProper/android.widget.ImageView (7)'), 0)
+Mobile.tap(findTestObject('Object Repository/TestingFolder/LoggingIn/android.widget.LinearLayout'), 0)
 
 Mobile.closeApplication()
 
