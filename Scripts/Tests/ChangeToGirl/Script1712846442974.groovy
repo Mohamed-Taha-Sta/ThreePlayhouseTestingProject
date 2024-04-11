@@ -19,15 +19,18 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('app.three.android')
 
-Mobile.tap(findTestObject('Object Repository/TestingFolder/EditAboutText/android.widget.ImageView'), 0)
+Mobile.tap(findTestObject('Object Repository/TestingFolder/ChangingGender/ChangeToGirl/android.widget.ImageView'), 0)
 
-Mobile.tap(findTestObject('Object Repository/TestingFolder/EditAboutText/android.widget.TextView - Edit'), 0)
+Mobile.tap(findTestObject('Object Repository/TestingFolder/ChangingGender/ChangeToGirl/android.widget.TextView - Edit'), 
+    0)
 
-Mobile.scrollToText('About')
+Mobile.tap(findTestObject('Object Repository/TestingFolder/ChangingGender/ChangeToGirl/android.widget.TextView - Guy'), 
+    0)
 
-Mobile.setText(findTestObject('TestingFolder/EditAboutText/android.widget.EditText - This is a test'), 'Jesser', 0)
+Mobile.tap(findTestObject('Object Repository/TestingFolder/ChangingGender/ChangeToGirl/android.widget.TextView - Girl'), 
+    0)
 
-Mobile.tap(findTestObject('Object Repository/TestingFolder/EditAboutText/android.widget.ImageView (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/TestingFolder/ChangingGender/ChangeToGirl/android.widget.ImageView (1)'), 0)
 
 Mobile.closeApplication()
 
