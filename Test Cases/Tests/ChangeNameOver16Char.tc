@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>ChangeName</name>
+   <name>ChangeNameOver16Char</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d7636a73-36db-4256-9185-258ce6841a7e</testCaseGuid>
+   <testCaseGuid>0b4e2309-4e2c-4bb7-9a09-40e04434053e</testCaseGuid>
 </TestCaseEntity>
