@@ -17,3 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.startExistingApplication('app.three.android')
+
+Mobile.tap(findTestObject('Object Repository/Room/android.widget.ImageView'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Room/android.widget.EditText - Title'), 0)
+
+Mobile.setText(findTestObject('Object Repository/Room/android.widget.EditText - Title (1)'), 'TestingRoom1', 0)
+
+Mobile.tap(findTestObject('Object Repository/Room/android.widget.TextView - Start'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Room/android.widget.ImageView (2)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Room/android.widget.CheckBox (5)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Room/android.widget.CheckBox (6)'), 0)
+
+Mobile.closeApplication()
+

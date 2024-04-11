@@ -19,7 +19,12 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('app.three.android')
 
-Mobile.scrollToText('Social media')
+Mobile.tap(findTestObject('Object Repository/Room/android.widget.ImageView'), 0)
+
+Mobile.tap(findTestObject('Object Repository/Room/android.widget.EditText - Title'), 0)
+
+Mobile.setText(findTestObject('Object Repository/Room/android.widget.EditText - Title (1)'), 'TestingRoom1', 0)
+
+Mobile.tap(findTestObject('Object Repository/Room/android.widget.TextView - Start'), 0)
 
 Mobile.closeApplication()
-
