@@ -98,6 +98,18 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< HEAD
+			<id>1712820891840</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1712820891856</id>
+=======
 			<id>1712785422162</id>
 			<name></name>
 			<type>10</type>
@@ -108,6 +120,7 @@
 		</filter>
 		<filter>
 			<id>1712785422173</id>
+>>>>>>> branch 'main' of https://github.com/Mohamed-Taha-Sta/ThreePlayhouseTestingProject.git
 			<name></name>
 			<type>6</type>
 			<matcher>

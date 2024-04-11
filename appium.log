@@ -1,14 +1,28 @@
 [35m[Appium][39m Welcome to Appium v1.22.3
 [35m[Appium][39m Non-default server args:
+<<<<<<< HEAD
+[35m[Appium][39m   port: 56124
+=======
 [35m[Appium][39m   port: 53115
+>>>>>>> branch 'main' of https://github.com/Mohamed-Taha-Sta/ThreePlayhouseTestingProject.git
 [35m[Appium][39m   loglevel: info
+<<<<<<< HEAD
+[35m[Appium][39m   tmpDir: C:\Users\GROVER~1\AppData\Local\Temp\\Katalon\Appium\Temp1712771522359
+[35m[Appium][39m   chromedriverPort: 56125
+=======
 [35m[Appium][39m   tmpDir: C:\Users\Taha\AppData\Local\Temp\\Katalon\Appium\Temp1712785020825
 [35m[Appium][39m   chromedriverPort: 53116
+>>>>>>> branch 'main' of https://github.com/Mohamed-Taha-Sta/ThreePlayhouseTestingProject.git
 [35m[Appium][39m Deprecated server args:
 [35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
 [35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+<<<<<<< HEAD
+[35m[Appium][39m   chromedriverPort: 56125
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:56124
+=======
 [35m[Appium][39m   chromedriverPort: 53116
 [35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:53115
+>>>>>>> branch 'main' of https://github.com/Mohamed-Taha-Sta/ThreePlayhouseTestingProject.git
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m4 ms - 68[39m
@@ -25,77 +39,409 @@
 [35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
 [35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
 [35m[BaseDriver][39m   platform
+<<<<<<< HEAD
+[35m[BaseDriver][39m Session created with session id: 9a1b8738-07bb-4a4c-a243-f830d35b22b1
+=======
 [35m[BaseDriver][39m Session created with session id: da157ffe-ad3b-4b71-b5b9-f3fb88fafcd9
+>>>>>>> branch 'main' of https://github.com/Mohamed-Taha-Sta/ThreePlayhouseTestingProject.git
 [35m[UiAutomator2][39m Starting 'com.android.settings' directly on the device
-[35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\Taha\.katalon\tools\android_sdk' (newest first):
-[35m[ADB][39m     C:/Users/Taha/.katalon/tools/android_sdk/build-tools/29.0.3
-[35m[ADB][39m Using 'adb.exe' from 'C:\Users\Taha\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\GroveReaper\.katalon\tools\android_sdk' (newest first):
+[35m[ADB][39m     C:/Users/GroveReaper/.katalon/tools/android_sdk/build-tools/29.0.3
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\GroveReaper\.katalon\tools\android_sdk\platform-tools\adb.exe'
 [35m[AndroidDriver][39m Retrieving device list
 [35m[AndroidDriver][39m Using device: emulator-5554
-[35m[ADB][39m Using 'adb.exe' from 'C:\Users\Taha\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\GroveReaper\.katalon\tools\android_sdk\platform-tools\adb.exe'
 [35m[ADB][39m Getting device platform version
 [35m[UiAutomator2][39m Relaxing hidden api policy
 [35m[AndroidDriver][39m No app sent in, not parsing package/activity
-[35m[ADB][39m Using 'apksigner.jar' from 'C:\Users\Taha\.katalon\tools\android_sdk\build-tools\29.0.3\lib\apksigner.jar'
-[35m[ADB][39m 'C:\Users\Taha\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' is signed with the default certificate
-[35m[ADB][39m 'C:\Users\Taha\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[35m[ADB][39m Using 'apksigner.jar' from 'C:\Users\GroveReaper\.katalon\tools\android_sdk\build-tools\29.0.3\lib\apksigner.jar'
+[35m[ADB][39m 'C:\Users\GroveReaper\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' is signed with the default certificate
+[35m[ADB][39m 'C:\Users\GroveReaper\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
 [35m[UiAutomator2][39m Server packages are not going to be (re)installed
 [35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
 [35m[UiAutomator2][39m Starting UIAutomator2 server 4.27.0
-[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\Taha\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' and test from 'C:\Users\Taha\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\GroveReaper\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' and test from 'C:\Users\GroveReaper\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
 [35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
 [35m[WD Proxy][39m socket hang up
 [35m[WD Proxy][39m socket hang up
 [35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
 [35m[AndroidDriver][39m Screen already unlocked, doing nothing
 [35m[UiAutomator2][39m Starting 'com.android.settings/.Settings and waiting for 'com.android.settings/.Settings'
+<<<<<<< HEAD
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 9a1b8738-07bb-4a4c-a243-f830d35b22b1 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m7287 ms - 1195[39m
+=======
 [35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session da157ffe-ad3b-4b71-b5b9-f3fb88fafcd9 added to master session list
 [35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m5209 ms - 1194[39m
+>>>>>>> branch 'main' of https://github.com/Mohamed-Taha-Sta/ThreePlayhouseTestingProject.git
 [35m[HTTP][39m [90m[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1[39m
+=======
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/da157ffe-ad3b-4b71-b5b9-f3fb88fafcd9[39m
+>>>>>>> branch 'main' of https://github.com/Mohamed-Taha-Sta/ThreePlayhouseTestingProject.git
 [35m[HTTP][39m [90m{}[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1 [39m[32m200[39m [90m28 ms - 1149[39m
+=======
 [35m[HTTP][39m [37m<-- GET /wd/hub/session/da157ffe-ad3b-4b71-b5b9-f3fb88fafcd9 [39m[32m200[39m [90m11 ms - 1148[39m
+>>>>>>> branch 'main' of https://github.com/Mohamed-Taha-Sta/ThreePlayhouseTestingProject.git
 [35m[HTTP][39m [90m[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1[39m
+=======
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/da157ffe-ad3b-4b71-b5b9-f3fb88fafcd9[39m
+>>>>>>> branch 'main' of https://github.com/Mohamed-Taha-Sta/ThreePlayhouseTestingProject.git
 [35m[HTTP][39m [90m{}[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1 [39m[32m200[39m [90m18 ms - 1149[39m
+=======
 [35m[HTTP][39m [37m<-- GET /wd/hub/session/da157ffe-ad3b-4b71-b5b9-f3fb88fafcd9 [39m[32m200[39m [90m8 ms - 1148[39m
+>>>>>>> branch 'main' of https://github.com/Mohamed-Taha-Sta/ThreePlayhouseTestingProject.git
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
 [35m[HTTP][39m [90m[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/timeouts[39m
+=======
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/da157ffe-ad3b-4b71-b5b9-f3fb88fafcd9/timeouts[39m
+>>>>>>> branch 'main' of https://github.com/Mohamed-Taha-Sta/ThreePlayhouseTestingProject.git
 [35m[HTTP][39m [90m{"implicit":60000}[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+=======
 [35m[HTTP][39m [37m<-- POST /wd/hub/session/da157ffe-ad3b-4b71-b5b9-f3fb88fafcd9/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+>>>>>>> branch 'main' of https://github.com/Mohamed-Taha-Sta/ThreePlayhouseTestingProject.git
 [35m[HTTP][39m [90m[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/screenshot[39m
+=======
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/da157ffe-ad3b-4b71-b5b9-f3fb88fafcd9/screenshot[39m
+>>>>>>> branch 'main' of https://github.com/Mohamed-Taha-Sta/ThreePlayhouseTestingProject.git
 [35m[HTTP][39m [90m{}[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/screenshot [39m[32m200[39m [90m402 ms - 249818[39m
+=======
 [35m[HTTP][39m [37m<-- GET /wd/hub/session/da157ffe-ad3b-4b71-b5b9-f3fb88fafcd9/screenshot [39m[32m200[39m [90m268 ms - 207374[39m
+>>>>>>> branch 'main' of https://github.com/Mohamed-Taha-Sta/ThreePlayhouseTestingProject.git
 [35m[HTTP][39m [90m[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/window/rect[39m
+=======
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/da157ffe-ad3b-4b71-b5b9-f3fb88fafcd9/window/rect[39m
+>>>>>>> branch 'main' of https://github.com/Mohamed-Taha-Sta/ThreePlayhouseTestingProject.git
 [35m[HTTP][39m [90m{}[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/window/rect [39m[32m200[39m [90m14 ms - 50[39m
+=======
 [35m[HTTP][39m [37m<-- GET /wd/hub/session/da157ffe-ad3b-4b71-b5b9-f3fb88fafcd9/window/rect [39m[32m200[39m [90m13 ms - 50[39m
+>>>>>>> branch 'main' of https://github.com/Mohamed-Taha-Sta/ThreePlayhouseTestingProject.git
 [35m[HTTP][39m [90m[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/appium/device/system_bars[39m
+=======
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/da157ffe-ad3b-4b71-b5b9-f3fb88fafcd9/appium/device/system_bars[39m
+>>>>>>> branch 'main' of https://github.com/Mohamed-Taha-Sta/ThreePlayhouseTestingProject.git
 [35m[HTTP][39m [90m{}[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/appium/device/system_bars [39m[32m200[39m [90m52 ms - 145[39m
+=======
 [35m[HTTP][39m [37m<-- GET /wd/hub/session/da157ffe-ad3b-4b71-b5b9-f3fb88fafcd9/appium/device/system_bars [39m[32m200[39m [90m43 ms - 145[39m
+>>>>>>> branch 'main' of https://github.com/Mohamed-Taha-Sta/ThreePlayhouseTestingProject.git
 [35m[HTTP][39m [90m[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/appium/device/activate_app[39m
+=======
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/da157ffe-ad3b-4b71-b5b9-f3fb88fafcd9/appium/device/activate_app[39m
+>>>>>>> branch 'main' of https://github.com/Mohamed-Taha-Sta/ThreePlayhouseTestingProject.git
 [35m[HTTP][39m [90m{"bundleId":"app.three.android"}[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/appium/device/activate_app [39m[32m200[39m [90m264 ms - 14[39m
+=======
 [35m[HTTP][39m [37m<-- POST /wd/hub/session/da157ffe-ad3b-4b71-b5b9-f3fb88fafcd9/appium/device/activate_app [39m[32m200[39m [90m227 ms - 14[39m
+>>>>>>> branch 'main' of https://github.com/Mohamed-Taha-Sta/ThreePlayhouseTestingProject.git
 [35m[HTTP][39m [90m[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/source[39m
+=======
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/da157ffe-ad3b-4b71-b5b9-f3fb88fafcd9/source[39m
+>>>>>>> branch 'main' of https://github.com/Mohamed-Taha-Sta/ThreePlayhouseTestingProject.git
 [35m[HTTP][39m [90m{}[39m
+<<<<<<< HEAD
+[35m[W3C (9a1b8738)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 353f8eaa-55f0-4fd9-b355-6ac798667e86 with 9a1b8738-07bb-4a4c-a243-f830d35b22b1
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/source [39m[32m200[39m [90m71 ms - 600[39m
+=======
 [35m[W3C (da157ffe)][39m Driver proxy active, passing request on via HTTP proxy
 [35m[WD Proxy][39m Replacing sessionId 9036429a-2fc5-4519-b28c-a972ffebd260 with da157ffe-ad3b-4b71-b5b9-f3fb88fafcd9
 [35m[HTTP][39m [37m<-- GET /wd/hub/session/da157ffe-ad3b-4b71-b5b9-f3fb88fafcd9/source [39m[32m200[39m [90m10672 ms - 52263[39m
+>>>>>>> branch 'main' of https://github.com/Mohamed-Taha-Sta/ThreePlayhouseTestingProject.git
 [35m[HTTP][39m [90m[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/screenshot[39m
+=======
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/da157ffe-ad3b-4b71-b5b9-f3fb88fafcd9/screenshot[39m
+>>>>>>> branch 'main' of https://github.com/Mohamed-Taha-Sta/ThreePlayhouseTestingProject.git
 [35m[HTTP][39m [90m{}[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/screenshot [39m[32m200[39m [90m1160 ms - 2777962[39m
+=======
 [35m[HTTP][39m [37m<-- GET /wd/hub/session/da157ffe-ad3b-4b71-b5b9-f3fb88fafcd9/screenshot [39m[32m200[39m [90m514 ms - 1123008[39m
+>>>>>>> branch 'main' of https://github.com/Mohamed-Taha-Sta/ThreePlayhouseTestingProject.git
 [35m[HTTP][39m [90m[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/source[39m
+=======
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/da157ffe-ad3b-4b71-b5b9-f3fb88fafcd9/context[39m
+>>>>>>> branch 'main' of https://github.com/Mohamed-Taha-Sta/ThreePlayhouseTestingProject.git
 [35m[HTTP][39m [90m{}[39m
+<<<<<<< HEAD
+[35m[W3C (9a1b8738)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 353f8eaa-55f0-4fd9-b355-6ac798667e86 with 9a1b8738-07bb-4a4c-a243-f830d35b22b1
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/source [39m[32m200[39m [90m10574 ms - 53771[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/screenshot [39m[32m200[39m [90m957 ms - 3068936[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'app.three.android:id/iv_main_tab' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/elements [39m[32m200[39m [90m10958 ms - 651[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"app.three.android:id/iv_main_tab"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/elements [39m[32m200[39m [90m10659 ms - 651[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"app.three.android:id/iv_main_tab\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/elements [39m[32m200[39m [90m73343 ms - 651[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/window/rect [39m[32m200[39m [90m9 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.HorizontalScrollView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[5]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.ImageView[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/elements [39m[32m200[39m [90m10529 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/element/00000000-0000-00ba-ffff-ffff0000003e/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (9a1b8738)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 353f8eaa-55f0-4fd9-b355-6ac798667e86 with 9a1b8738-07bb-4a4c-a243-f830d35b22b1
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/element/00000000-0000-00ba-ffff-ffff0000003e/location [39m[32m200[39m [90m20199 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/element/00000000-0000-00ba-ffff-ffff0000003e/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-00ba-ffff-ffff0000003e"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/element/00000000-0000-00ba-ffff-ffff0000003e/click [39m[32m200[39m [90m30285 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (9a1b8738)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 353f8eaa-55f0-4fd9-b355-6ac798667e86 with 9a1b8738-07bb-4a4c-a243-f830d35b22b1
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/source [39m[32m200[39m [90m11451 ms - 53632[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/screenshot [39m[32m200[39m [90m348 ms - 278876[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'app.three.android:id/iv_settingBtn' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/elements [39m[32m200[39m [90m10891 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/window/rect [39m[32m200[39m [90m9 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'app.three.android:id/iv_settingBtn' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/elements [39m[32m200[39m [90m11229 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/element/00000000-0000-00ba-ffff-ffff0000017d/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (9a1b8738)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 353f8eaa-55f0-4fd9-b355-6ac798667e86 with 9a1b8738-07bb-4a4c-a243-f830d35b22b1
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/element/00000000-0000-00ba-ffff-ffff0000017d/location [39m[32m200[39m [90m20300 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/element/00000000-0000-00ba-ffff-ffff0000017d/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-00ba-ffff-ffff0000017d"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/element/00000000-0000-00ba-ffff-ffff0000017d/click [39m[32m200[39m [90m30458 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (9a1b8738)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 353f8eaa-55f0-4fd9-b355-6ac798667e86 with 9a1b8738-07bb-4a4c-a243-f830d35b22b1
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/source [39m[32m200[39m [90m11178 ms - 77337[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/screenshot [39m[32m200[39m [90m270 ms - 141074[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (9a1b8738)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 353f8eaa-55f0-4fd9-b355-6ac798667e86 with 9a1b8738-07bb-4a4c-a243-f830d35b22b1
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/source [39m[32m200[39m [90m10665 ms - 53632[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/screenshot [39m[32m200[39m [90m296 ms - 277676[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Edit' or . = 'Edit') and @resource-id = 'app.three.android:id/tv_edit']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/elements [39m[32m200[39m [90m10536 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/window/rect [39m[32m200[39m [90m12 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Edit' or . = 'Edit') and @resource-id = 'app.three.android:id/tv_edit']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/elements [39m[32m200[39m [90m10746 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/element/00000000-0000-00ba-ffff-ffff00000112/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (9a1b8738)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 353f8eaa-55f0-4fd9-b355-6ac798667e86 with 9a1b8738-07bb-4a4c-a243-f830d35b22b1
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/element/00000000-0000-00ba-ffff-ffff00000112/location [39m[32m200[39m [90m20252 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/element/00000000-0000-00ba-ffff-ffff00000112/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-00ba-ffff-ffff00000112"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/element/00000000-0000-00ba-ffff-ffff00000112/click [39m[32m200[39m [90m30308 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (9a1b8738)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 353f8eaa-55f0-4fd9-b355-6ac798667e86 with 9a1b8738-07bb-4a4c-a243-f830d35b22b1
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/source [39m[32m200[39m [90m11019 ms - 79024[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/screenshot [39m[32m200[39m [90m293 ms - 140064[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (9a1b8738)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 353f8eaa-55f0-4fd9-b355-6ac798667e86 with 9a1b8738-07bb-4a4c-a243-f830d35b22b1
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/source [39m[32m200[39m [90m11052 ms - 79024[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/screenshot [39m[32m200[39m [90m267 ms - 138862[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/context [39m[32m200[39m [90m1 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/contexts [39m[32m200[39m [90m142 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/context [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/element[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\"About\"))"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/element [39m[32m200[39m [90m88219 ms - 137[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (9a1b8738)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 353f8eaa-55f0-4fd9-b355-6ac798667e86 with 9a1b8738-07bb-4a4c-a243-f830d35b22b1
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/source [39m[32m200[39m [90m11607 ms - 70518[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/screenshot [39m[32m200[39m [90m279 ms - 145262[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'City or state | Hobbies | Relationship status' or . = 'City or state | Hobbies | Relationship status') and @resource-id = 'app.three.android:id/et_about']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/elements [39m[32m200[39m [90m11009 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/window/rect [39m[32m200[39m [90m7 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'City or state | Hobbies | Relationship status' or . = 'City or state | Hobbies | Relationship status') and @resource-id = 'app.three.android:id/et_about']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/elements [39m[32m200[39m [90m10754 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/element/00000000-0000-00ba-ffff-ffff00000601/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (9a1b8738)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 353f8eaa-55f0-4fd9-b355-6ac798667e86 with 9a1b8738-07bb-4a4c-a243-f830d35b22b1
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/element/00000000-0000-00ba-ffff-ffff00000601/location [39m[32m200[39m [90m20139 ms - 78[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/element/00000000-0000-00ba-ffff-ffff00000601/clear[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-00ba-ffff-ffff00000601"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/element/00000000-0000-00ba-ffff-ffff00000601/clear [39m[32m200[39m [90m20155 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/element/00000000-0000-00ba-ffff-ffff00000601/value[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-00ba-ffff-ffff00000601","text":"This is a test","value":["T","h","i","s"," ","i","s"," ","a"," ","t","e","s","t"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/element/00000000-0000-00ba-ffff-ffff00000601/value [39m[32m200[39m [90m60374 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (9a1b8738)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 353f8eaa-55f0-4fd9-b355-6ac798667e86 with 9a1b8738-07bb-4a4c-a243-f830d35b22b1
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/source [39m[32m200[39m [90m10810 ms - 70488[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/screenshot [39m[32m200[39m [90m264 ms - 139234[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'app.three.android:id/iv_settingBtn' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/elements [39m[32m200[39m [90m11112 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/window/rect [39m[32m200[39m [90m7 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.ImageView' and @resource-id = 'app.three.android:id/iv_settingBtn' and (@text = '' or . = '')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/elements [39m[32m200[39m [90m11052 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/element/00000000-0000-00ba-ffff-ffff0000017d/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (9a1b8738)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 353f8eaa-55f0-4fd9-b355-6ac798667e86 with 9a1b8738-07bb-4a4c-a243-f830d35b22b1
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/element/00000000-0000-00ba-ffff-ffff0000017d/location [39m[32m200[39m [90m20176 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/element/00000000-0000-00ba-ffff-ffff0000017d/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-00ba-ffff-ffff0000017d"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/element/00000000-0000-00ba-ffff-ffff0000017d/click [39m[32m200[39m [90m20711 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (9a1b8738)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 353f8eaa-55f0-4fd9-b355-6ac798667e86 with 9a1b8738-07bb-4a4c-a243-f830d35b22b1
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/source [39m[32m200[39m [90m86 ms - 2295[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/screenshot [39m[32m200[39m [90m296 ms - 145704[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (9a1b8738)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 353f8eaa-55f0-4fd9-b355-6ac798667e86 with 9a1b8738-07bb-4a4c-a243-f830d35b22b1
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/source [39m[32m200[39m [90m10621 ms - 55435[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1/screenshot [39m[32m200[39m [90m301 ms - 267138[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session 9a1b8738-07bb-4a4c-a243-f830d35b22b1 from our master session list
+=======
 [35m[HTTP][39m [37m<-- GET /wd/hub/session/da157ffe-ad3b-4b71-b5b9-f3fb88fafcd9/context [39m[32m200[39m [90m1 ms - 22[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/da157ffe-ad3b-4b71-b5b9-f3fb88fafcd9/contexts[39m
@@ -127,6 +473,11 @@
 [35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/da157ffe-ad3b-4b71-b5b9-f3fb88fafcd9[39m
 [35m[HTTP][39m [90m{}[39m
 [35m[Appium][39m Removing session da157ffe-ad3b-4b71-b5b9-f3fb88fafcd9 from our master session list
+>>>>>>> branch 'main' of https://github.com/Mohamed-Taha-Sta/ThreePlayhouseTestingProject.git
 [35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+<<<<<<< HEAD
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/9a1b8738-07bb-4a4c-a243-f830d35b22b1 [39m[32m200[39m [90m180 ms - 14[39m
+=======
 [35m[HTTP][39m [37m<-- DELETE /wd/hub/session/da157ffe-ad3b-4b71-b5b9-f3fb88fafcd9 [39m[32m200[39m [90m139 ms - 14[39m
+>>>>>>> branch 'main' of https://github.com/Mohamed-Taha-Sta/ThreePlayhouseTestingProject.git
 [35m[HTTP][39m [90m[39m

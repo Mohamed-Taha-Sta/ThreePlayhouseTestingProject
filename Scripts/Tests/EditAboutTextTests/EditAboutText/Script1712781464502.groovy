@@ -25,9 +25,8 @@ Mobile.tap(findTestObject('Object Repository/TestingFolder/EditAboutText/android
 
 Mobile.scrollToText('About')
 
-Mobile.tap(findTestObject('TestingFolder/EditAboutText/android.widget.EditText - This is a test'), 0)
-
-Mobile.setText(findTestObject('TestingFolder/EditAboutText/android.widget.EditText - This is a test'), 'new Text', 0)
+Mobile.setText(findTestObject('TestingFolder/EditAboutText/android.widget.EditText - This is a test'), 'This is a new text', 
+    0)
 
 Mobile.tap(findTestObject('Object Repository/TestingFolder/EditAboutText/android.widget.ImageView (1)'), 0)
 
