@@ -17,21 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication('app.three.android')
-
-Mobile.tap(findTestObject('Object Repository/ChangeName/android.widget.ImageView'), 0)
-
-Mobile.tap(findTestObject('Object Repository/ChangeName/android.widget.TextView - Edit'), 0)
-
-Mobile.tap(findTestObject('Object Repository/ChangeName/android.widget.EditText - ideal heliopolis'), 0)
-
-Mobile.tap(findTestObject('Object Repository/ChangeName/android.widget.EditText - ideal heliopolis (1)'), 0)
-
-Mobile.setText(findTestObject('ChangeName/android.widget.EditText - ideal heliopolis (1)'), '', 0)
-
-Mobile.tap(findTestObject('Object Repository/ChangeName/android.widget.ImageView (1)'), 0)
-
-Mobile.scrollToText('Social media')
-
-Mobile.closeApplication()
-

@@ -27,7 +27,7 @@ Mobile.tap(findTestObject('Object Repository/ChangeName/android.widget.EditText 
 
 Mobile.tap(findTestObject('Object Repository/ChangeName/android.widget.EditText - ideal heliopolis (1)'), 0)
 
-Mobile.setText(findTestObject(''), 'azertyuiopqsdfghj', 0)
+Mobile.setText(findTestObject('ChangeName/android.widget.EditText - ideal heliopolis (1)'), 'azertyuiopqsdfghj', 0)
 
 Mobile.tap(findTestObject('Object Repository/ChangeName/android.widget.ImageView (1)'), 0)
 
